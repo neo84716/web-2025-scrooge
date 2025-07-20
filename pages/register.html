@@ -9,16 +9,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
-  <title>首頁</title>
+  <title>註冊頁</title>
 </head>
 
 <body>
-  
-  <%- include('./layout/header', { navMbHidden: true }) %>
-    <%- include('./layout/index'); -%>
-      <%- include('./layout/banner'); -%>
-        <%- include('./layout/footer'); -%>
-          <script type="module" src="../main.js"></script>
+
+  <%- include('./layout/header'); -%>
+    <%- include('./layout/register'); -%>
+      <%- include('./layout/footer'); -%>
+        <script type="module" src="../main.js"></script>
 </body>
 
 </html>

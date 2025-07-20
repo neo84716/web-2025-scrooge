@@ -1,0 +1,13 @@
+.slash-item + .slash-item:before{
+	content: '/';
+	padding: 0 12px;
+	color: #DEE2E6;
+	font-weight: 700;
+}
+.slash-item{
+	display: flex;
+	font-weight: 500;
+}
+.slash-link{
+	color: #6C757D;
+}

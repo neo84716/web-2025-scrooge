@@ -1,0 +1,201 @@
+.btn-primary-lg{
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: $neutral-900;
+    background-color: $primary-300;
+    line-height: 1.5;
+    font-weight: 500;
+	letter-spacing: inherit;
+    cursor: pointer;
+    &:hover{
+        color: $primary-500;
+    }
+    &:focus{
+        color: $primary-500;
+        box-shadow: 0px 0px 0px 3px rgba(33, 37, 41, 0.1);
+    }
+    &:disabled{
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+    & i{
+        font-size: 20px;
+    }
+}
+
+.btn-primary-sm{
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: $neutral-900;
+    background-color: $primary-300;
+    line-height: 1.5;
+    font-weight: 500;
+	letter-spacing: inherit;
+    cursor: pointer;
+    &:hover{
+        background-color: $neutral-700;
+    }
+    &:focus{
+        background-color: $neutral-700;
+        box-shadow: 0px 0px 0px 3px rgba(33, 37, 41, 0.1);
+    }
+    &:disabled{
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+    & i{
+        font-size: 20px;
+    }
+}
+
+.btn-filled-lg{
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: $neutral-0;
+    background-color: $neutral-900;
+    line-height: 1.5;
+    font-weight: 500;
+	letter-spacing: inherit;
+    cursor: pointer;
+    &:hover{
+        background-color: $neutral-700;
+    }
+    &:focus{
+        background-color: $neutral-700;
+        box-shadow: 0px 0px 0px 3px rgba(33, 37, 41, 0.1);
+    }
+    &:disabled{
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+    & i{
+        font-size: 20px;
+    }
+}
+
+.btn-outlined-lg{
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid $neutral-900;
+    font-size: 16px;
+    color: $neutral-900;
+    line-height: 1.5;
+    font-weight: 500;
+	letter-spacing: inherit;
+    cursor: pointer;
+    &:hover{
+        color: $neutral-0;
+        background-color: $neutral-900;
+    }
+    &:focus{
+        color: $neutral-0;
+        background-color: $neutral-900;
+        box-shadow: 0px 0px 0px 3px rgba(33, 37, 41, 0.1);
+    }
+    &:disabled{
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+    & i{
+        font-size: 20px;
+    }
+}
+
+.btn-filled-sm{
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: $neutral-0;
+    background-color: $neutral-900;
+    line-height: 1.5;
+    font-weight: 500;
+	letter-spacing: inherit;
+    cursor: pointer;
+    &:hover{
+        background-color: $neutral-700;
+    }
+    &:focus{
+        background-color: $neutral-700;
+        box-shadow: 0px 0px 0px 3px rgba(33, 37, 41, 0.1);
+    }
+    &:disabled{
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+}
+
+.btn-outlined-sm{
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid $neutral-900;
+    font-size: 16px;
+    color: $neutral-900;
+    line-height: 1.5;
+    font-weight: 500;
+	letter-spacing: inherit;
+    cursor: pointer;
+    &:hover{
+        color: $neutral-0;
+        background-color: $neutral-900;
+    }
+    &:focus{
+        color: $neutral-0;
+        background-color: $neutral-900;
+        box-shadow: 0px 0px 0px 3px rgba(33, 37, 41, 0.1);
+    }
+    &:disabled{
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+}
+
+.btn-text{
+    width: 160px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: $neutral-900;
+    line-height: 1.5;
+    font-weight: 500;
+    border: 1px solid $neutral-300;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid $neutral-600;
+    }
+    &:focus{
+        border: 1px solid $neutral-900;
+    }
+    &:disabled{
+        color: lighten($neutral-900,50%);
+        border: 1px solid $neutral-300;
+        cursor: not-allowed;
+    }
+    &.active{
+        width: 160px;
+        font-size: 16px;
+        padding: 12px 24px;
+        border-radius: 4px;
+        color: $neutral-900;
+        line-height: 1.5;
+        font-weight: 500;
+        border: 1px solid $neutral-900;
+    }
+}
+
+.btn-page{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-nav{
+    width: 100%;
+    background-color: $primary-100;
+    &:hover{
+        background-color: $primary-200;
+
+    }
+}

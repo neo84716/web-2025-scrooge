@@ -1,0 +1,154 @@
+.hero-img {
+    background: url("/assets/images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opacity {
+    text-align: center;
+    color: #fff;
+    padding-top: 151px;
+    padding-bottom: 151px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main-img{
+    width: 1076px;
+}
+
+.li-highlight {
+    border-left: 4px solid rgba(0, 0, 0, 0.1); /* 或你想要的色碼 */
+    padding-left: 12px;
+}
+.border-bottom ol {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+@media(max-width: 768px) {
+    .nav-item{
+        display: none;
+    }
+    .hero-img{
+        background: url("/assets/images/hero-sm.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .opacity-md{
+        padding: 87px 0;
+    }
+    .col-md-8{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main-img{
+        width: 100%;
+    }
+    .nav-sm{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-list{
+        padding-left: 12px;
+        padding-right: 12px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .summary{
+        align-items: flex-start;
+        padding: 24px;
+    }
+    .h2-mb {
+		font-size: 32px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h3-mb {
+		font-size: 28px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h4-mb {
+		font-size: 24px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h5-mb {
+		font-size: 20px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h6-mb {
+		font-size: 16px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.py-mb-0 {
+		padding: 0;
+	}
+
+	.py-mb-16 {
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+
+	.py-mb-32 {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.py-mb-40 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.py-mb-64 {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+
+	.mb-mb-8 {
+		margin-bottom: 8px;
+	}
+
+	.mb-mb-12 {
+		margin-bottom: 12px;
+	}
+
+	.mb-mb-16 {
+		margin-bottom: 16px;
+	}
+
+	.mb-mb-24 {
+		margin-bottom: 24px;
+	}
+
+	.mb-mb-32 {
+		margin-bottom: 32px;
+	}
+
+	.mb-mb-40 {
+		margin-bottom: 40px;
+	}
+
+	.mr-mb-16 {
+		margin-right: 16px;
+	}
+
+	.mr-mb-16 {
+		margin-right: 16px;
+	}
+
+	.mt-mb-24 {
+		margin-top: 24px;
+	}
+
+}

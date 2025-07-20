@@ -1,4 +1,23 @@
-<h1 class="header">header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
+<% var navMbHidden = typeof navMbHidden !== 'undefined' ? navMbHidden : false; %>
+<header>
+<nav class="container py-16 d-flex align-center justify-between">
+    <ul class="d-flex align-center">
+        <li class="mr-48"><a href="index.html"><img
+                    src="https://raw.githubusercontent.com/neo84716/Scrooge_LiveCourse/f9aa6183c205d21a37e439613a2f1fc49990e456/image/logo.svg"
+                    alt="Logo"></a></li>
+        <li class="mr-40 nav-item"><a class="py-12" href="productlist.html">商品列表</a></li>
+        <li class="nav-item"><a class="py-12" href="story.html">品牌故事</a></li>
+    </ul>
+    <a class="p-12" href="login.html"><img
+            src="https://raw.githubusercontent.com/neo84716/Scrooge_LiveCourse/51ffe4df1727e96c55cb0224a85122a42069dee1/image/person.svg"
+            alt=""></a>
+</nav>
+<% if (navMbHidden) { %>
+<nav class="d-flex align-center nav-mb-hidden">
+    <ul class="d-flex align-center justify-between">
+        <li class="w-100"><button class="btn-nav"><a class="py-12" href="productlist.html">商品列表</a></button></li>
+        <li class="w-100"><button class="btn-nav"><a class="py-12" href="story.html">品牌故事</a></button></li>
+    </ul>
+</nav>
+<% } %>
+</header>

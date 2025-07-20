@@ -1,0 +1,160 @@
+.side-category .active {
+    color: $primary-400
+}
+
+.side-category a:hover {
+    color: $primary-400
+}
+
+
+.page-item .active {
+    background-color: $primary-300;
+}
+
+.page-item:hover {
+    background-color: $primary-300;
+}
+
+.hidden-product {
+    display: none;
+}
+
+
+@media(max-width: 768px) {
+    .nav-item {
+        display: none;
+    }
+    .nav-head{
+        padding: 12px 12px;
+    }
+    .list-title{
+        padding-top: 9.5px;
+        padding-bottom: 9.5px;
+    }
+    .col-2,
+    .side-category {
+        display: none;
+    }
+
+    .col-md-10 {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: calc(100% / 12 * 6);
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .row-mb-wrap {
+        flex-wrap: wrap;
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+
+    .hidden-product {
+        display: block;
+    }
+
+    .nav-sm {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        padding-left: 12px;
+        padding-right: 12px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .h2-mb {
+		font-size: 32px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h3-mb {
+		font-size: 28px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h4-mb {
+		font-size: 24px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h5-mb {
+		font-size: 20px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.h6-mb {
+		font-size: 16px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	.py-mb-0 {
+		padding: 0;
+	}
+
+	.py-mb-16 {
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+
+	.py-mb-32 {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.py-mb-40 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.py-mb-64 {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+
+	.mb-mb-8 {
+		margin-bottom: 8px;
+	}
+
+	.mb-mb-12 {
+		margin-bottom: 12px;
+	}
+
+	.mb-mb-16 {
+		margin-bottom: 16px;
+	}
+
+	.mb-mb-24 {
+		margin-bottom: 24px;
+	}
+
+	.mb-mb-32 {
+		margin-bottom: 32px;
+	}
+
+	.mb-mb-40 {
+		margin-bottom: 40px;
+	}
+
+	.mr-mb-16 {
+		margin-right: 16px;
+	}
+
+	.mr-mb-16 {
+		margin-right: 16px;
+	}
+
+	.mt-mb-24 {
+		margin-top: 24px;
+	}
+
+}
