@@ -33,20 +33,18 @@
     padding-bottom: 100px;
 }
 
-.sparkle {
+.sparkle-img {
     position: absolute;
+    width: 76px;
     bottom: 132px;
-    right: 603px; 
-    width: 48px;
-    height: 48px;
+    right: calc(50% - 357px);
 }
 
-.star {
+.star-img {
     position: absolute;
-    top: 68px;
-    left: 563px;
     width: 48px;
-    height: 48px;
+    top: 68px;
+    left: calc(50% - 397px);
 }
 .x-word {
     padding: 5px 24px;
@@ -137,7 +135,18 @@
         line-height: 1.2;
         font-weight: 700;
     }
-
+    .sparkle-img {
+        position: absolute;
+        width: 76px;
+        bottom: 40px;
+        right: -28px;
+    }
+    .star-img {
+        position: absolute;
+        width: 48px;
+        top: 32px;
+        left: -20px
+    }
     .banner-content {
         margin-left: 0;
         padding: 155px 24px;
