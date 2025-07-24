@@ -1,11 +1,13 @@
 .login{
-    height: 589px;    // 固定高度
+	background-image: url("/assets/images/login.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 12px;
+	height: 100%;
+	width: 100%;
 }
 
-.login img{
-    width: 100%;
-    height: 100%;
-}
 .welcome{
     background-image: url("/assets/images/login-bg.png");
     background-repeat: no-repeat;
@@ -37,9 +39,12 @@
 }
 
 @media(max-width: 768px) {
-    .login-sm{
-        height: 100%;
-    }
+	.login{
+		height: 240px;
+		background-image: url("/assets/images/login-sm.png");
+		background-position: top;
+		border-radius: 0;
+	}
     .welcome{
         background-image: none;
         padding: 32px 12px;

@@ -64,18 +64,11 @@
 
 .btn-dark {
     border: 1px solid var(--neutral-900);
-    font-size: 16px;
     font-weight: 500;
     border-radius: 4px;
     width: 100%;
     color: #FFFFFF;
     background-color: #212529;
-}
-
-.paragraph-md {
-    font-size: 16px;
-    font-weight: 400;
-    color: #6C757D;
 }
 
 .hidden-heart {
@@ -123,7 +116,9 @@
         padding-right: 6px;
         padding-left: 6px;
     }
-
+    .best-row{
+        width: 100%;
+    }
     .best-row.horizontal-scroll {
         display: flex;
         flex-wrap: nowrap;
@@ -221,7 +216,6 @@
 	}
 
 	.h6-mb {
-		font-size: 16px;
 		line-height: 1.2;
 		font-weight: 700;
 	}

@@ -20,12 +20,20 @@
     z-index: 1;
 }
 
+.popular-col:hover{
+    filter: brightness(0.9);
+}
+
+.card-text:hover{
+    color: $primary-300;
+}
 .sale {
     position: relative;
     background-image: url("/assets/images/banner-co-branded.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .sale-content {
@@ -71,6 +79,9 @@
 .image-card {
     position: relative;
     width: 100%;
+    &:hover h3 {
+        color: $primary-300;
+    }
 }
 
 .overlay {
@@ -129,7 +140,9 @@
     .banner {
         background-image: url("/assets/images/banner-sm.png");
     }
-
+    .sale {
+        background-image: url("/assets/images/banner-co-branded-sm.png");
+    }
     .display2-mb {
         font-size: 48px;
         line-height: 1.2;
@@ -256,7 +269,7 @@
 	}
 
 	.h6-mb {
-		font-size: 16px;
+        font-size: 16px;
 		line-height: 1.2;
 		font-weight: 700;
 	}

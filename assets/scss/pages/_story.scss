@@ -1,3 +1,8 @@
+.text-underline{
+	text-decoration:underline;
+	text-underline-offset: 4px;
+}
+
 .hero-img {
     background: url("/assets/images/hero.png");
     background-repeat: no-repeat;
@@ -14,7 +19,7 @@
 }
 
 .main-img{
-    width: 1076px;
+    width: 100%;
 }
 
 .li-highlight {
